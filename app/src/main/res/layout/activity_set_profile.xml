@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.perfect.juzzuber.SetProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:id="@+id/imageSetProfile"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/default_profile_image"
+        android:onClick="selectImage"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_marginTop="250dp"
+        android:layout_centerInParent="true"
+        android:onClick="next"/>
+
+</RelativeLayout>
